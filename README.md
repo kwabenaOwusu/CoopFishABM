@@ -1,4 +1,4 @@
-# common_pool_uncertainty 
+# common_pool_uncertainty model
 
 common_pool_uncertainty model is designed to study the impact of  different uncertainty levels regarding the resource size and  social interaction, i.e flow of information among fishermen located within a given radius on the harvesting behaviour of a group of fishermen exploiting a common pool resource that spatially varies. The model is developed for decision makers on the management  of renewable natural resource to help advance the design of policies geared towards sustaining the resources.
 
