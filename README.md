@@ -1,6 +1,6 @@
 # common_pool_uncertainty model
 
-common_pool_uncertainty model is designed to study the impact of  different uncertainty levels regarding the resource size and  social interaction, i.e flow of information among fishermen located within a given radius on the harvesting behaviour of a group of fishermen exploiting a common pool resource that spatially varies. The model is developed for decision makers on the management  of renewable natural resource to help advance the design of policies geared towards sustaining the resources.
+common_pool_uncertainty model is designed to study the impact of  different uncertainty levels regarding the resource size and  social interaction, i.e flow of information among fishermen located within a given radius, on the harvesting behaviour of a group of fishermen exploiting a common pool resource that spatially varies. The model is developed for decision makers on the management  of renewable natural resource to help advance the design of policies geared towards sustaining the resources.
 
 The model has two agents, namely fishermen  and fish agent which lives in a two dimensional world. The fishermen are characterized by their effort and catch. Every agent has a position (x and y coordinates) and changes this position by a random amounts in discrete time. The two-dimensional world is wrapped to keep the movement of the fishermen and fishes within a fixed boundary.  The model runs on a yearly time scale for a 250th years or stops if all the fishes get depleted earlier before this time-step.
 
