@@ -10,4 +10,4 @@ The fish reproduction rate is density dependent and according to a logistic grow
 
 
 ## Usage
-The model code is implemented in python. To run this model, download two files **common_pool_uncertainty.py** and **pycxsimulator.py** keep them in the same folder.
+The model code is implemented in python. To run **common_pool_uncertainty.py**, you need to place **pycxsimulator.py** in the same directory where **common_pool_uncertainty.py** is located.
