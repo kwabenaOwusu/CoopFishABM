@@ -17,17 +17,13 @@ The model has two agents, namely a fisherman and fish agent which lives in a two
 
 Fishermen form a perception of the number of fishes. There is a random difference between the true and perceived number of fishes. We explicitly modeled this difference as a Gaussian probability distribution a mean of the true number of fishes (<span class="math">_N_<sub>_f_</sub></span>) and a standard deviation (<span class="math">_U_<sub>_f_</sub></span>), which represents the extent to which perception of the number of fishes of all the fishermen as a whole can deviate from the true number of fishes. The harvesting behaviour of a fisherman is determined by its harvesting coefficient, which is quantified as the absolute difference between its perceptions of the number of fishes from the true number of fishes. The harvesting coefficient also decreases by a constant factor for each other fisherman located in a fisherman’s neighbourhood radius. Hence, a higher number of other fishermen in neighborhood radius result in a lower harvesting coefficient. For harvesting to occur the following condition must be satisfied
 
-<span>0.9</span>
-
 <span class="math">random-uniform (0,1) < (_α_ − _β_ * _n_<sub>_f_</sub>)</span>  
 
 where <span class="math">_α_</span> is the harvesting coefficient of the fisherman scaled between 0 and 1, <span class="math">_n_<sub>_f_</sub></span> is the number of other fishermen in neighbourhood radius, <span class="math">_β_</span> is a factor of reduction in harvesting coefficient for each fisherman within the neighbourhood radius, and <span class="math">random-uniform (0,1)</span> is a uniform distribution of evenly distributed values over a specified range (minimum value of 0 and a maximum of 1).
 
-In other words, a random number is drawn from the uniform distribution and if it is less-than the right-hand-side (R.H.S) expression of [eq3], a fish in neighbourhood radius is harvested. This condition ([eq3]) is executed once for each fish agent in the neighbourhood radius. Thus, with a high harvesting coefficient and low number of other fishermen, a fisherman is more probable to harvest a larger fraction of the fishes in its neighborhood radius. The fishermen moves by setting the heading towards the direction of any fish they sight (there is an equal probability of sighting or not sighting a fish) and moving a fixed-magnitude (<span class="math">_M_<sub>_F_</sub></span>) forward. If no fish is sighted, then the fisherman set a random-heading and moves fixed-magnitude forward.
+In other words, a random number is drawn from the uniform distribution and if it is less-than the right-hand-side (R.H.S) expression, a fish in neighbourhood radius is harvested. This condition is executed once for each fish agent in the neighbourhood radius. Thus, with a high harvesting coefficient and low number of other fishermen, a fisherman is more probable to harvest a larger fraction of the fishes in its neighborhood radius. The fishermen moves by setting the heading towards the direction of any fish they sight (there is an equal probability of sighting or not sighting a fish) and moving a fixed-magnitude (<span class="math">_M_<sub>_F_</sub></span>) forward. If no fish is sighted, then the fisherman set a random-heading and moves fixed-magnitude forward.
 
 The fish agent growth rate is according to a logistic growth rate restriction. A copy of a randomly selected fish agent is created as an offspring if
-
-<span>0.9</span>
 
 <span class="math">$\mbox{ random-uniform (0,1)} < R \left(1- \frac{N_{f}}{K}\right) \label{eq4}$</span>  
 
