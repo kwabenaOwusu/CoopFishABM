@@ -20,9 +20,9 @@ Fishermen form a perception of the number of fishes. There is a random differenc
 
 <span>0.9</span>
 
-$$mbox{ random-uniform (0,1)}  <  (alpha - beta ast n_{f}) label{eq3}$$
+<span class="math">random-uniform (0,1) < (_α_ − _β_ * _n_<sub>_f_</sub>)</span>  
 
-where $alpha $ is the harvesting coefficient of the fisherman scaled between 0 and 1, $ n_{f}$ is the number of other fishermen in neighbourhood radius, $beta$ is a factor of reduction in harvesting coefficient for each fisherman within the neighbourhood radius, and $mbox{ random-uniform (0,1)} $ is a uniform distribution of evenly distributed values over a specified range (minimum value of 0 and a maximum of 1).
+where <span class="math">_α_</span> is the harvesting coefficient of the fisherman scaled between 0 and 1, <span class="math">_n_<sub>_f_</sub></span> is the number of other fishermen in neighbourhood radius, <span class="math">_β_</span> is a factor of reduction in harvesting coefficient for each fisherman within the neighbourhood radius, and <span class="math">random-uniform (0,1)</span> is a uniform distribution of evenly distributed values over a specified range (minimum value of 0 and a maximum of 1).
 
 In other words, a random number is drawn from the uniform distribution and if it is less-than the right-hand-side (R.H.S) expression of [eq3], a fish in neighbourhood radius is harvested. This condition ([eq3]) is executed once for each fish agent in the neighbourhood radius. Thus, with a high harvesting coefficient and low number of other fishermen, a fisherman is more probable to harvest a larger fraction of the fishes in its neighborhood radius. The fishermen moves by setting the heading towards the direction of any fish they sight (there is an equal probability of sighting or not sighting a fish) and moving a fixed-magnitude ($M_{F}$) forward. If no fish is sighted, then the fisherman set a random-heading and moves fixed-magnitude forward.
 
