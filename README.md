@@ -25,6 +25,8 @@ In other words, a random number is drawn from the uniform distribution and if it
 
 The fish agent growth rate is according to a logistic growth rate restriction. A copy of a randomly selected fish agent is created as an offspring if
 
+<span>0.9</span>
+
 <span class="math">$\mbox{ random-uniform (0,1)} < R \left(1- \frac{N_{f}}{K}\right) \label{eq4}$</span>  
 
 where <span class="math">_R_</span> is the growth rate probability of the fishes, <span class="math">_N_<sub>_f_</sub></span> is the number fishes and <span class="math">_K_</span> is the carrying capacity. Thus growth stops when <span class="math">_N_<sub>_f_</sub></span> equals <span class="math">_K_</span> and high values of <span class="math">_R_</span> increases the growth rate of the fishes.
