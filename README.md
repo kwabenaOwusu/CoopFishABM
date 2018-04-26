@@ -8,10 +8,10 @@ Our agent-based model (ABM) focus on simulating  interaction between fisherman a
 
 
 
-## Type of simulation ##
+## Usage ##
 (1) For a no MPA simulation for entire period : \
-MPA = 'no'   # run simulation with an MPA? \
-Both = 'no'  # run simulation partly without MPA and partly with MPA? \
+**MPA = 'no' **  # run simulation with an MPA? \
+**Both = 'no' ** # run simulation partly without MPA and partly with MPA?
 
 (2) For a single MPA simulation for entire period : \
 MPA = 'yes'   # run simulation with an MPA? \
