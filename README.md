@@ -19,14 +19,14 @@ Both = 'no'  \
 Type_MPA =  \
 Frac_MPA = [0,1] 
 
-(3) For a spaced MPA simulation for entire period :
+(3) For a spaced MPA simulation for entire period : \
 MPA = 'yes'     \
 Both = 'no'  \
 Type_MPA = 'spaced' \
 Dist_MPA = [0,1]  \
 Frac_MPA = [0,1] 
 
-(4) For partly no MPA and partly single MPA simulation for entire period :
+(4) For partly no MPA and partly single MPA simulation for entire period : \
 MPA = 'no'    \
 Both = 'yes'  \
 Time_MPA = \
@@ -34,13 +34,13 @@ Type_MPA = 'single' \
 Dist_MPA = [0,1] \
 Frac_MPA = [0,1] 
 
-(5) For partly no MPA and partly spaced MPA simulation :
+(5) For partly no MPA and partly spaced MPA simulation : \
 MPA = 'no'  
 Both = 'yes'  
 Time_MPA = \
 Type_MPA = 'spaced' 
 Dist_MPA = [0,1] \
-Frac_MPA = [0,1] \
+Frac_MPA = [0,1] 
 
 
 
