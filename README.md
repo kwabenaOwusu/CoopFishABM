@@ -10,37 +10,37 @@ Our agent-based model (ABM) focus on simulating  interaction between fisherman a
 
 ## Usage ##
 (1) For a no MPA simulation for entire period : \
-** MPA = 'no'  ** run simulation with an MPA? \
-** Both = 'no' ** run simulation partly without MPA and partly with MPA?
+MPA = 'no'   \
+Both = 'no' 
 
 (2) For a single MPA simulation for entire period : \
-MPA = 'yes'   # run simulation with an MPA? \
-Both = 'no'  # run simulation partly without MPA and partly with MPA?  \
-Type_MPA = 'single' # If MPA  = 'yes' or Both = 'yes', which type of MPA?  \
-Frac_MPA = [0,1]  # What fraction of the total fishing area should be covered by MPA ?  \
+MPA = 'yes'    \
+Both = 'no'  \
+Type_MPA =  \
+Frac_MPA = [0,1] 
 
 (3) For a spaced MPA simulation for entire period :
-MPA = 'yes'   # run simulation with an MPA?  \
-Both = 'no'  # run simulation partly without MPA and partly with MPA?  \
-Type_MPA = 'spaced' # If MPA  = 'yes' or Both = 'yes', which type of MPA?  \
-Dist_MPA = [0,1] # If Type_MPA = 'spaced', What should be the distance between MPA ? \
-Frac_MPA = [0,1]  # What fraction of the total fishing area should be covered by MPA ?  \
+MPA = 'yes'     \
+Both = 'no'  \
+Type_MPA = 'spaced' \
+Dist_MPA = [0,1]  \
+Frac_MPA = [0,1] 
 
-(3) For partly no MPA and partly single MPA simulation for entire period :
-MPA = 'no'   # run simulation with an MPA?  \
-Both = 'yes'  # run simulation partly without MPA and partly with MPA? : no or yes
-Time_MPA = (,number of years for simulation] # If Both = 'yes', which time to introduce the MPA? 
-Type_MPA = 'single' # If MPA  = 'yes' or Both = 'yes', which type of MPA? : spaced or single
-Dist_MPA = [0,1] # If Type_MPA = 'spaced', What should be the distance between MPA ?
-Frac_MPA = [0,1] # What fraction of the total fishing area should be covered by MPA ? 
+(4) For partly no MPA and partly single MPA simulation for entire period :
+MPA = 'no'    \
+Both = 'yes'  \
+Time_MPA = \
+Type_MPA = 'single' \
+Dist_MPA = [0,1] \
+Frac_MPA = [0,1] 
 
-(3) For partly no MPA and partly spaced MPA simulation :
-MPA = 'no'   # run simulation with an MPA? : no or yes (where a 'yes' implies only with MPA and 'no' implies run only without MPA)
-Both = 'yes'  # run simulation partly without MPA and partly with MPA? : no or yes
-Time_MPA = 20 # If Both = 'yes', which time to introduce the MPA? 
-Type_MPA = 'single' # If MPA  = 'yes' or Both = 'yes', which type of MPA? : spaced or single
-Dist_MPA = 0.3 # If Type_MPA = 'spaced', What should be the distance between MPA ?
-Frac_MPA = 0.15  # What fraction of the total fishing area should be covered by MPA ? 
+(5) For partly no MPA and partly spaced MPA simulation :
+MPA = 'no'  
+Both = 'yes'  
+Time_MPA = \
+Type_MPA = 'spaced' 
+Dist_MPA = [0,1] \
+Frac_MPA = [0,1] \
 
 
 
