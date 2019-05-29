@@ -12,9 +12,10 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 
 ## HOW TO USE IT
 
-MPA = 'yes'  # run with-only-MPA simulation? (A 'yes' implies only-with-MPA and 'no' implies only-without-MPA)
-Both = 'no'  # run partly without-MPA and with-MPA? (A 'yes' implies partly (with-MPA and  with-MPA))
-Time_MPA = 50 # If Both = 'yes', which time do you want to terminate the MPA? 
-Type_MPA = 'spaced' # If MPA  = 'yes' or Both = 'yes', which spatial configuration do you want? (A 'spaced' implies two MPAs and 'single' implies only one MPA)
-Dist_MPA = 0.2 # If Type_MPA = 'spaced', What should be the distance between the two MPAs ?
-Frac_MPA = 0.25  # What fraction of the fishing environments should be set as MPA?
+The **MPA** sets whether to run an MPA or without an MPA throughout the entire period.
+The  **Both** sets whether to run partly with MPA and partly without an MPA simulation.
+The  **Time_MPA** determines which time to terminate MPA, if **Both** is set to "yes".
+The **Type_MPA** determines the spatial configuration required (i.e. "spaced" or "single"), If **MPA**  = 'yes' or **Both** = 'yes'.
+The **Dist_MPA** sets the distance between the two MPAs, if **Type_MPA** = "spaced".
+The **Frac_MPA** sets the fraction of the fishing ground to be set as MPA, IF **MPA** = "yes" or **Both** = "yes"
+
