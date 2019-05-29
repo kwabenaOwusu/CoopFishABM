@@ -22,8 +22,8 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 > ##  THINGS TO NOTICE
 
 * How does a simulation with-MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without-MPA  in terms of fish abundance and catch?
-* Does the speed of fish agent have any impacts on the conseravtion effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
-* How does the different cooperation levels (regulation of catchability) affects the conseravtion effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+* Does the speed of fish agent have any impacts on the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+* How does the different cooperation levels (regulation of catchability) affects the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
 
 
 
