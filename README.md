@@ -19,4 +19,15 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 * The **Dist_MPA** sets the distance between the two MPAs, if **Type_MPA** = "spaced".
 * The **Frac_MPA** sets the fraction of the fishing ground to be set as MPA, IF **MPA** = "yes" or **Both** = "yes"
 
-> ##  THINGS TO TRY
+> ##  THINGS TO NOTICE
+
+* How does a simulation with-MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without-MPA  in terms of fish abundance and catch?
+* Does the speed of fish agent have any impacts on the conseravtion effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+* How does the different cooperation levels (regulation of catchability) affects the conseravtion effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+
+
+
+
+
+
+
