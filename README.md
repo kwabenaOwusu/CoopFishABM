@@ -1,6 +1,6 @@
 # Effects of cooperation and different characteristics of Marine Protected Areas on a simulated artisanal fishery
 
-> ## <span style="color:red">NOTE</span>
+> ## NOTE
 The model code is implemented in python. It generates an output folder named **simulation_output** in your working directory  which contains a video of the simulation (**simulation_video.mp4**), data of the catch and biomass dynamics of the fishermen (**simulation_data.csv**)  and snapshots of each time step of the simulation . 
 
 > ## WHAT IS IT ?
@@ -31,7 +31,7 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 * Complexity can be also added to fishing agents to investigate in more detail cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
 
 
-
+"And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know."
 
 
 
